@@ -1,0 +1,34 @@
+examples/test.go 1
+ast 
+examples/test.go 4
+ast RecordSet 
+examples/test.go 30
+ExecuteExec 
+examples/test.go 50
+processinfo ShowProcess 
+examples/test.js 1
+js JavaScript Hunspell 
+examples/subExamples/test2.js 1
+js JavaScript spellchecker Hunspell dictionaris 
+examples/subExamples/test2.js 2
+js JavaScript spellchecker Hunspell 
+examples/subExamples/test2.js 6
+exaple byts fle 
+examples/subExamples/test2.js 7
+exaple byts fle 
+examples/test2.js 1
+js JavaScript spellchecker Hunspell dictionaris 
+examples/test2.js 2
+js JavaScript spellchecker Hunspell 
+examples/test2.js 6
+exaple byts fle 
+examples/test2.js 7
+exaple byts fle 
+examples/subExamples/1/2/3/4/test2.js 1
+js JavaScript spellchecker Hunspell dictionaris 
+examples/subExamples/1/2/3/4/test2.js 2
+js JavaScript spellchecker Hunspell 
+examples/subExamples/1/2/3/4/test2.js 6
+exaple byts fle 
+examples/subExamples/1/2/3/4/test2.js 7
+exaple byts fle 

@@ -8,6 +8,8 @@
     "test": "test"
   },
   "dependencies": {
+    "recursive-readdir": "^2.2.1",
+    "sleep": "^5.1.1",
     "typo-js": "^1.0.3"
   },
   "devDependencies": {
