@@ -10,7 +10,9 @@
   "dependencies": {
     "typo-js": "^1.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
   "scripts": {
     "test": "mocha"
   },

@@ -1,1 +1,2 @@
-console.log('hello')
+const Type = require("typo-js");
+
