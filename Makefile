@@ -7,9 +7,9 @@ test:
 	@NODE_ENV=test ./node_modules/.bin/mocha --recursive --reporter $(REPORTER) --timeout 3000
 
 js:
-	jshint lib examples test index.js
+	jshint lib  test index.js
 fix:
-	fixmyjs lib examples test index.js
+	fixjsstyle index.js
 tests: test
 
 tap:

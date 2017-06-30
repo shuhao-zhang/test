@@ -1,36 +1,42 @@
-const fs = require('fs'); 
+const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
-const Typo = require("typo-js");
+const Typo = require('typo-js');
 const sleep = require('sleep');
 const recursive = require('recursive-readdir');
+const each = require('async-each');
 
-const dictionary = new Typo("en_US");
+const dictionary = new Typo('en_US');
 const appDir = path.dirname(require.main.filename);
 
-const langOptions = { 
-                 "rb": '#',
-                 "js": '//',
-                 "java": '//',
-                 "py": '#',
-                 "go": '//'
-               }
+const langOptions = {
+                 'rb': '#',
+                 'js': '//',
+                 'java': '//',
+                 'py': '#',
+                 'go': '//'
+               };
 const ws = fs.createWriteStream('./report.txt');
+const ignoreSet = new Set(['js', 'JavaScript', 'JS']);
 
 function containComment(str, langType) {
-    const commentSymbol = langOptions[langType]; 
-    if(!commentSymbol) {
+    const commentSymbol = langOptions[langType];
+    if (!commentSymbol) {
         return -1;
     }
-    if(str) {
+    if (str) {
         var startingIndex = str.indexOf(commentSymbol);
         return startingIndex === -1 ? -1 : startingIndex + commentSymbol.length;
     }
     return -1;
 }
 
-function isAlpha(ch){
+function isAlpha(ch) {
     return ch.match(/^[a-z]+$/i) !== null;
+}
+
+function isIgnored(ch) {
+    return ignoreSet.has(ch);
 }
 
 function spellCheck(str, startIndex) {
@@ -42,7 +48,10 @@ function spellCheck(str, startIndex) {
     words.map(word => {
         if (!isAlpha(word)) {
             return;
-        } 
+        }
+        if (isIgnored(word)) {
+            return;
+        }
         var suggestions = dictionary.suggest(word);
         if (suggestions.length > 0) {
             replaceDict[word] = suggestions;
@@ -61,7 +70,9 @@ function spellCheck2(str, startIndex) {
         if(!isAlpha(word)) {
             return;
         } 
-
+        if (isIgnored(word)) {
+            return;
+        }
         if(!dictionary.check(word)) {
             replaceDict += word + ' ';
         }
@@ -76,7 +87,7 @@ function convertToString(obj) {
     Object.keys(obj).forEach(function(key) {
         var values = obj[key].join(' ');
         str += String(key) + ' ' + values + '\n';
-    })
+    });
     return str;
 }
 
@@ -122,9 +133,16 @@ function testDir(pathToDir) {
             console.log(err);
             return;
         }
+        each(filenames, testPrinting, function(error, contents) {
+            if (error) {
+                console.log(error);
+            }
+        });
+        /*
         filenames.map(name => {
             testPrinting(name);
-        })
+        });
+        */
     });
 }
 

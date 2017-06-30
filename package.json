@@ -8,6 +8,7 @@
     "test": "test"
   },
   "dependencies": {
+    "async-each": "^1.0.1",
     "recursive-readdir": "^2.2.1",
     "sleep": "^5.1.1",
     "typo-js": "^1.0.3"
