@@ -1,34 +1,1136 @@
-examples/test.go 1
-ast 
-examples/test.go 4
-ast RecordSet 
-examples/test.go 30
-ExecuteExec 
-examples/test.go 50
-processinfo ShowProcess 
-examples/test.js 1
-Hunspell 
-examples/test2.js 1
-spellchecker Hunspell dictionaris 
-examples/test2.js 2
-spellchecker Hunspell 
-examples/test2.js 6
-exaple byts fle 
-examples/test2.js 7
-exaple byts fle 
-examples/subExamples/test2.js 1
-spellchecker Hunspell dictionaris 
-examples/subExamples/test2.js 2
-spellchecker Hunspell 
-examples/subExamples/test2.js 5
-exaple byts fle 
-examples/subExamples/test2.js 6
-exaple byts fle 
-examples/subExamples/1/2/3/4/test2.js 1
-spellchecker Hunspell dictionaris 
-examples/subExamples/1/2/3/4/test2.js 2
-spellchecker Hunspell 
-examples/subExamples/1/2/3/4/test2.js 5
-exaple byts fle 
-examples/subExamples/1/2/3/4/test2.js 6
-exaple byts fle 
+/Users/R/tikv/src/bin/signal_handler.rs 73
+rocksdb 
+/Users/R/tikv/src/bin/tikv-server.rs 291
+wikipedia 
+/Users/R/tikv/src/bin/tikv-server.rs 364
+RocksDB 
+/Users/R/tikv/src/bin/tikv-server.rs 549
+timestamp 
+/Users/R/tikv/src/bin/tikv-server.rs 616
+toml 
+/Users/R/tikv/src/bin/tikv-server.rs 835
+raftstore 
+/Users/R/tikv/src/raft/mod.rs 14
+etcd 
+/Users/R/tikv/src/raft/log_unstable.rs 14
+etcd 
+/Users/R/tikv/src/raft/log_unstable.rs 31
+entris 
+/Users/R/tikv/src/raft/log_unstable.rs 77
+idx 
+/Users/R/tikv/src/raft/log_unstable.rs 197
+windex 
+/Users/R/tikv/src/raft/log_unstable.rs 224
+windex 
+/Users/R/tikv/src/raft/log_unstable.rs 251
+wterm 
+/Users/R/tikv/src/raft/log_unstable.rs 302
+woffset wlen 
+/Users/R/tikv/src/raft/log_unstable.rs 341
+woffset wentries 
+/Users/R/tikv/src/raft/progress.rs 14
+etcd 
+/Users/R/tikv/src/raft/progress.rs 49
+ProgressStateProbe 
+/Users/R/tikv/src/raft/progress.rs 52
+ProgressStateReplicate 
+/Users/R/tikv/src/raft/progress.rs 56
+ProgressStateSnapshot 
+/Users/R/tikv/src/raft/progress.rs 59
+ProgressStateProbe 
+/Users/R/tikv/src/raft/progress.rs 62
+ProgressStateSnapshot 
+/Users/R/tikv/src/raft/progress.rs 63
+pendingSnapshot 
+/Users/R/tikv/src/raft/progress.rs 64
+pendingSnapshot 
+/Users/R/tikv/src/raft/progress.rs 71
+RecentActive 
+/Users/R/tikv/src/raft/progress.rs 74
+Inflights inflight 
+/Users/R/tikv/src/raft/progress.rs 75
+inflights 
+/Users/R/tikv/src/raft/progress.rs 77
+inflights 
+/Users/R/tikv/src/raft/progress.rs 78
+inflights 
+/Users/R/tikv/src/raft/progress.rs 79
+inflights 
+/Users/R/tikv/src/raft/progress.rs 80
+inflights freeTo 
+/Users/R/tikv/src/raft/progress.rs 95
+ProgressStateSnapshot 
+/Users/R/tikv/src/raft/progress.rs 97
+pendingSnapshot 
+/Users/R/tikv/src/raft/progress.rs 122
+unsets pendingSnapshot 
+/Users/R/tikv/src/raft/progress.rs 123
+pendingSnapshot 
+/Users/R/tikv/src/raft/progress.rs 196
+inflights 
+/Users/R/tikv/src/raft/progress.rs 208
+inflights 
+/Users/R/tikv/src/raft/progress.rs 217
+inflight inflights 
+/Users/R/tikv/src/raft/progress.rs 236
+inflights 
+/Users/R/tikv/src/raft/progress.rs 247
+inflight 
+/Users/R/tikv/src/raft/progress.rs 261
+inflights 
+/Users/R/tikv/src/raft/progress.rs 272
+inflights 
+/Users/R/tikv/src/raft/raft_log.rs 14
+etcd 
+/Users/R/tikv/src/raft/raft_log.rs 292
+lastIndex 
+/Users/R/tikv/src/raft/raft_log.rs 451
+ent 
+/Users/R/tikv/src/raft/raft_log.rs 487
+lastIndex 
+/Users/R/tikv/src/raft/raft_log.rs 491
+lastIndex 
+/Users/R/tikv/src/raft/raft_log.rs 495
+lastIndex 
+/Users/R/tikv/src/raft/raft_log.rs 598
+ents 
+/Users/R/tikv/src/raft/raft_log.rs 717
+TestUnstableEnts unstableEntries 
+/Users/R/tikv/src/raft/raft_log.rs 732
+raftlog 
+/Users/R/tikv/src/raft/raft_log.rs 893
+lastnewi 
+/Users/R/tikv/src/raft/raft_log.rs 906
+lastnewi 
+/Users/R/tikv/src/raft/raft_log.rs 980
+TestCompaction compactions 
+/Users/R/tikv/src/raft/raft.rs 14
+etcd 
+/Users/R/tikv/src/raft/raft.rs 45
+Config 
+/Users/R/tikv/src/raft/raft.rs 48
+Config 
+/Users/R/tikv/src/raft/raft.rs 72
+Config 
+/Users/R/tikv/src/raft/raft.rs 86
+ElectionTick 
+/Users/R/tikv/src/raft/raft.rs 88
+ElectionTick 
+/Users/R/tikv/src/raft/raft.rs 90
+HeartbeatTick HeartbeatTick 
+/Users/R/tikv/src/raft/raft.rs 93
+HeartbeatTick 
+/Users/R/tikv/src/raft/raft.rs 104
+MaxSizePerMsg 
+/Users/R/tikv/src/raft/raft.rs 111
+MaxInflightMsgs 
+/Users/R/tikv/src/raft/raft.rs 116
+electionTimeout 
+/Users/R/tikv/src/raft/raft.rs 119
+Pre 
+/Users/R/tikv/src/raft/raft.rs 155
+SoftState 
+/Users/R/tikv/src/raft/raft.rs 156
+WAL 
+/Users/R/tikv/src/raft/raft.rs 192
+unapplied 
+/Users/R/tikv/src/raft/raft.rs 197
+electionTimeout 
+/Users/R/tikv/src/raft/raft.rs 199
+electionTimeout 
+/Users/R/tikv/src/raft/raft.rs 203
+heartbeatTimeout 
+/Users/R/tikv/src/raft/raft.rs 204
+heartbeatElapsed 
+/Users/R/tikv/src/raft/raft.rs 401
+Pre RPCs 
+/Users/R/tikv/src/raft/raft.rs 414
+MsgPropose MsgReadIndex 
+/Users/R/tikv/src/raft/raft.rs 417
+MsgReadIndex 
+/Users/R/tikv/src/raft/raft.rs 495
+RPC 
+/Users/R/tikv/src/raft/raft.rs 518
+MsgAppend 
+/Users/R/tikv/src/raft/raft.rs 537
+RPC 
+/Users/R/tikv/src/raft/raft.rs 538
+prs 
+/Users/R/tikv/src/raft/raft.rs 550
+RPC 
+/Users/R/tikv/src/raft/raft.rs 616
+bcastAppend 
+/Users/R/tikv/src/raft/raft.rs 645
+MsgBeat 
+/Users/R/tikv/src/raft/raft.rs 701
+pre 
+/Users/R/tikv/src/raft/raft.rs 740
+Pre RPCs 
+/Users/R/tikv/src/raft/raft.rs 810
+ReqeustVote 
+/Users/R/tikv/src/raft/raft.rs 836
+pre 
+/Users/R/tikv/src/raft/raft.rs 837
+pre 
+/Users/R/tikv/src/raft/raft.rs 839
+pre pre 
+/Users/R/tikv/src/raft/raft.rs 840
+pre 
+/Users/R/tikv/src/raft/raft.rs 841
+pre 
+/Users/R/tikv/src/raft/raft.rs 862
+checkQuorum 
+/Users/R/tikv/src/raft/raft.rs 863
+MsgVote 
+/Users/R/tikv/src/raft/raft.rs 864
+checkQuorum MsgVote 
+/Users/R/tikv/src/raft/raft.rs 867
+MsgVotes 
+/Users/R/tikv/src/raft/raft.rs 868
+MsgApp MsgHeartbeat 
+/Users/R/tikv/src/raft/raft.rs 923
+MsgRequestPreVote MsgRequestVote 
+/Users/R/tikv/src/raft/raft.rs 1079
+electionTimeout 
+/Users/R/tikv/src/raft/raft.rs 1080
+electionElapsed 
+/Users/R/tikv/src/raft/raft.rs 1110
+msgAppResp 
+/Users/R/tikv/src/raft/raft.rs 1111
+msgAppend 
+/Users/R/tikv/src/raft/raft.rs 1137
+inflights 
+/Users/R/tikv/src/raft/raft.rs 1184
+MsgAppend 
+/Users/R/tikv/src/raft/raft.rs 1259
+interally 
+/Users/R/tikv/src/raft/raft.rs 1331
+MsgRequestVote MsgRequestPreVote 
+/Users/R/tikv/src/raft/raft.rs 1354
+MsgPreVoteResp 
+/Users/R/tikv/src/raft/raft.rs 1355
+pre 
+/Users/R/tikv/src/raft/raft.rs 1436
+trnasfers pre 
+/Users/R/tikv/src/raft/raft.rs 1608
+addNode 
+/Users/R/tikv/src/raft/raft.rs 1665
+iff 
+/Users/R/tikv/src/raft/raw_node.rs 14
+etcd 
+/Users/R/tikv/src/raft/raw_node.rs 82
+SoftState 
+/Users/R/tikv/src/raft/raw_node.rs 83
+SoftState 
+/Users/R/tikv/src/raft/raw_node.rs 88
+HardState 
+/Users/R/tikv/src/raft/raw_node.rs 92
+ReadState 
+/Users/R/tikv/src/raft/raw_node.rs 93
+MsgReadIndex 
+/Users/R/tikv/src/raft/raw_node.rs 104
+CommittedEntries 
+/Users/R/tikv/src/raft/raw_node.rs 111
+MsgSnap 
+/Users/R/tikv/src/raft/raw_node.rs 112
+ReportSnapshot 
+/Users/R/tikv/src/raft/raw_node.rs 150
+RawNode 
+/Users/R/tikv/src/raft/raw_node.rs 151
+struct 
+/Users/R/tikv/src/raft/raw_node.rs 160
+NewRawNode RawNode 
+/Users/R/tikv/src/raft/raw_node.rs 236
+RawNode 
+/Users/R/tikv/src/raft/raw_node.rs 254
+ProposeConfChange 
+/Users/R/tikv/src/raft/raw_node.rs 303
+RawNode 
+/Users/R/tikv/src/raft/raw_node.rs 336
+HasReady RawNode 
+/Users/R/tikv/src/raft/raw_node.rs 337
+containsUpdates 
+/Users/R/tikv/src/raft/raw_node.rs 347
+RawNode 
+/Users/R/tikv/src/raft/raw_node.rs 354
+prevHardSt HardState 
+/Users/R/tikv/src/raft/raw_node.rs 356
+HardState 
+/Users/R/tikv/src/raft/raw_node.rs 357
+HardState 
+/Users/R/tikv/src/raft/raw_node.rs 358
+un 
+/Users/R/tikv/src/raft/raw_node.rs 360
+CommittedEntries 
+/Users/R/tikv/src/raft/raw_node.rs 362
+HardState 
+/Users/R/tikv/src/raft/raw_node.rs 380
+ReportUnreachable 
+/Users/R/tikv/src/raft/raw_node.rs 385
+ok 
+/Users/R/tikv/src/raft/raw_node.rs 389
+ReportSnapshot 
+/Users/R/tikv/src/raft/raw_node.rs 396
+ok 
+/Users/R/tikv/src/raft/raw_node.rs 400
+TransferLeader 
+/Users/R/tikv/src/raft/raw_node.rs 408
+ReadIndex 
+/Users/R/tikv/src/raft/raw_node.rs 411
+rctx attched 
+/Users/R/tikv/src/raft/read_only.rs 14
+etcd 
+/Users/R/tikv/src/raft/read_only.rs 36
+linearizability 
+/Users/R/tikv/src/raft/read_only.rs 39
+LeaseBased linearizability 
+/Users/R/tikv/src/raft/read_only.rs 42
+ReadIndex 
+/Users/R/tikv/src/raft/read_only.rs 53
+ReadState 
+/Users/R/tikv/src/raft/read_only.rs 54
+MsgReadIndex 
+/Users/R/tikv/src/raft/read_only.rs 87
+readonly struct 
+/Users/R/tikv/src/raft/read_only.rs 105
+ReadOnly struct 
+/Users/R/tikv/src/raft/read_only.rs 113
+ack 
+/Users/R/tikv/src/raft/read_only.rs 119
+ReadOnly struct 
+/Users/R/tikv/src/raft/read_only.rs 140
+ReadOnly struct 
+/Users/R/tikv/src/raft/status.rs 14
+etcd 
+/Users/R/tikv/src/raft/storage.rs 14
+etcd 
+/Users/R/tikv/src/raft/storage.rs 45
+paticipate 
+/Users/R/tikv/src/raft/storage.rs 48
+RaftState 
+/Users/R/tikv/src/raft/storage.rs 54
+idx 
+/Users/R/tikv/src/raft/storage.rs 67
+SnapshotTemporarilyUnavailable 
+/Users/R/tikv/src/raft/storage.rs 93
+HardState 
+/Users/R/tikv/src/raft/storage.rs 150
+RaftLog 
+/Users/R/tikv/src/raft/storage.rs 301
+TODO 
+/Users/R/tikv/src/raft/storage.rs 364
+maxsize 
+/Users/R/tikv/src/pd/mod.rs 60
+PdClient PdClient 
+/Users/R/tikv/src/pd/mod.rs 67
+ClusterBootstrapped 
+/Users/R/tikv/src/pd/async/util.rs 184
+requets 
+/Users/R/tikv/src/storage/types.rs 40
+timestamp 
+/Users/R/tikv/src/storage/types.rs 68
+timestamp 
+/Users/R/tikv/src/storage/types.rs 75
+timestamp 
+/Users/R/tikv/src/storage/types.rs 98
+timestamp 
+/Users/R/tikv/src/storage/mod.rs 45
+Cfs 
+/Users/R/tikv/src/storage/mod.rs 49
+len 
+/Users/R/tikv/src/storage/engine/mod.rs 31
+rocksdb 
+/Users/R/tikv/src/storage/engine/mod.rs 246
+ord 
+/Users/R/tikv/src/storage/engine/mod.rs 404
+Rocskdb Whihout 
+/Users/R/tikv/src/storage/engine/mod.rs 607
+fallback 
+/Users/R/tikv/src/storage/engine/mod.rs 658
+controll 
+/Users/R/tikv/src/storage/engine/mod.rs 714
+refactor 
+/Users/R/tikv/src/storage/engine/raftkv.rs 149
+RaftKv 
+/Users/R/tikv/src/storage/mvcc/txn.rs 121
+timestamp 
+/Users/R/tikv/src/storage/mvcc/txn.rs 127
+timestamp 
+/Users/R/tikv/src/storage/mvcc/txn.rs 179
+Rollbacked 
+/Users/R/tikv/src/storage/mvcc/txn.rs 204
+prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 213
+Ok 
+/Users/R/tikv/src/storage/mvcc/txn.rs 225
+WriteCF Prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 357
+prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 373
+Prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 375
+prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 405
+Prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 452
+prewrite 
+/Users/R/tikv/src/storage/mvcc/txn.rs 559
+startTS commitTS 
+/Users/R/tikv/src/storage/mvcc/txn.rs 569
+CFDefault CFWrite 
+/Users/R/tikv/src/storage/txn/latch.rs 72
+interchangably 
+/Users/R/tikv/src/storage/txn/latch.rs 95
+deduplicate 
+/Users/R/tikv/src/raftstore/errors.rs 78
+RocksDb 
+/Users/R/tikv/src/storage/txn/scheduler.rs 205
+async 
+/Users/R/tikv/src/storage/txn/scheduler.rs 229
+cid 
+/Users/R/tikv/src/storage/txn/scheduler.rs 234
+cmd 
+/Users/R/tikv/src/storage/txn/scheduler.rs 337
+timestamp 
+/Users/R/tikv/src/storage/txn/scheduler.rs 365
+timestamp 
+/Users/R/tikv/src/storage/txn/scheduler.rs 366
+timestamp 
+/Users/R/tikv/src/storage/txn/scheduler.rs 408
+gc 
+/Users/R/tikv/src/storage/txn/scheduler.rs 717
+furthur 
+/Users/R/tikv/src/storage/txn/scheduler.rs 723
+conflicitng 
+/Users/R/tikv/src/storage/txn/scheduler.rs 747
+GC 
+/Users/R/tikv/src/storage/txn/scheduler.rs 771
+async 
+/Users/R/tikv/src/storage/txn/scheduler.rs 849
+async 
+/Users/R/tikv/src/storage/txn/scheduler.rs 897
+furthur 
+/Users/R/tikv/src/storage/txn/store.rs 194
+prewrite 
+/Users/R/tikv/src/raftstore/coprocessor/mod.rs 29
+Coprocessor convient 
+/Users/R/tikv/src/raftstore/coprocessor/mod.rs 30
+KV 
+/Users/R/tikv/src/raftstore/coprocessor/mod.rs 58
+admin 
+/Users/R/tikv/src/raftstore/coprocessor/mod.rs 70
+inproper 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 24
+coprocessors 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 43
+Admin coprocessors 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 50
+TODO 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 56
+prepose 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 84
+pre 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 210
+admin 
+/Users/R/tikv/src/raftstore/coprocessor/dispatcher.rs 245
+coprocessor 
+/Users/R/tikv/src/raftstore/coprocessor/region_snapshot.rs 133
+rocksdb 
+/Users/R/tikv/src/raftstore/coprocessor/region_snapshot.rs 152
+impl 
+/Users/R/tikv/src/raftstore/store/config.rs 83
+gc 
+/Users/R/tikv/src/raftstore/store/config.rs 85
+gc 
+/Users/R/tikv/src/raftstore/store/config.rs 87
+gc 
+/Users/R/tikv/src/raftstore/store/config.rs 90
+gc 
+/Users/R/tikv/src/raftstore/store/config.rs 100
+diff 
+/Users/R/tikv/src/raftstore/coprocessor/split_observer.rs 149
+coprocessor 
+/Users/R/tikv/src/raftstore/store/engine.rs 100
+refactor rocksdb 
+/Users/R/tikv/src/raftstore/store/engine.rs 235
+refactor rocksdb 
+/Users/R/tikv/src/raftstore/store/engine.rs 393
+cfs 
+/Users/R/tikv/src/raftstore/store/engine.rs 394
+rocksdb 
+/Users/R/tikv/src/raftstore/store/engine_metrics.rs 171
+RocksDB 
+/Users/R/tikv/src/raftstore/store/keys.rs 319
+uninitialised 
+/Users/R/tikv/src/raftstore/store/local_metrics.rs 244
+Flushs 
+/Users/R/tikv/src/raftstore/store/peer.rs 161
+TiKV 
+/Users/R/tikv/src/raftstore/store/peer.rs 179
+SafeReadIndex 
+/Users/R/tikv/src/raftstore/store/peer.rs 234
+timestamp 
+/Users/R/tikv/src/raftstore/store/peer.rs 238
+timestamp 
+/Users/R/tikv/src/raftstore/store/peer.rs 239
+MsgTimeoutNow 
+/Users/R/tikv/src/raftstore/store/peer.rs 240
+MsgTimeoutNow 
+/Users/R/tikv/src/raftstore/store/peer.rs 478
+safty 
+/Users/R/tikv/src/raftstore/store/peer.rs 583
+timestamp 
+/Users/R/tikv/src/raftstore/store/peer.rs 683
+writebatch 
+/Users/R/tikv/src/raftstore/store/peer.rs 728
+metadata 
+/Users/R/tikv/src/raftstore/store/peer.rs 771
+async 
+/Users/R/tikv/src/raftstore/store/peer.rs 856
+timestamp 
+/Users/R/tikv/src/raftstore/store/peer.rs 904
+intuitional 
+/Users/R/tikv/src/raftstore/store/peer.rs 1069
+conf 
+/Users/R/tikv/src/raftstore/store/peer.rs 1070
+iff 
+/Users/R/tikv/src/raftstore/store/peer.rs 1071
+conf 
+/Users/R/tikv/src/raftstore/store/peer.rs 1073
+cmd 
+/Users/R/tikv/src/raftstore/store/peer.rs 1098
+unexisting 
+/Users/R/tikv/src/raftstore/store/peer.rs 1199
+TimeoutNow 
+/Users/R/tikv/src/raftstore/store/peer.rs 1237
+NotLeader 
+/Users/R/tikv/src/raftstore/store/peer.rs 1306
+NotLeader 
+/Users/R/tikv/src/raftstore/store/peer.rs 1460
+RequestVote 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 94
+async 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 524
+backoff 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 598
+metadata 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 778
+explictly 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 780
+struct 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 819
+ok 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 829
+rocksdb 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 886
+metadata 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 1071
+maxsize 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 1097
+PeerStorage 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 1118
+TODO 
+/Users/R/tikv/src/raftstore/store/peer_storage.rs 1408
+ApplyAborted 
+/Users/R/tikv/src/raftstore/store/snap.rs 144
+raftstores 
+/Users/R/tikv/src/raftstore/store/snap.rs 145
+raftstore 
+/Users/R/tikv/src/raftstore/store/snap.rs 147
+gc 
+/Users/R/tikv/src/raftstore/store/snap.rs 291
+tmpfile 
+/Users/R/tikv/src/raftstore/store/snap.rs 292
+tmpfile 
+/Users/R/tikv/src/raftstore/store/snap.rs 441
+kvpair 
+/Users/R/tikv/src/raftstore/store/snap.rs 999
+sst 
+/Users/R/tikv/src/raftstore/store/snap.rs 1357
+EOF 
+/Users/R/tikv/src/raftstore/store/snap.rs 1646
+TODO 
+/Users/R/tikv/src/raftstore/store/store.rs 114
+mio 
+/Users/R/tikv/src/raftstore/store/store.rs 187
+TODO coprocessors 
+/Users/R/tikv/src/raftstore/store/store.rs 225
+neccessary 
+/Users/R/tikv/src/raftstore/store/store.rs 481
+conf 
+/Users/R/tikv/src/raftstore/store/store.rs 707
+MsgAppendResponse 
+/Users/R/tikv/src/raftstore/store/store.rs 709
+ConfChange 
+/Users/R/tikv/src/raftstore/store/store.rs 711
+MsgRequestVote gc 
+/Users/R/tikv/src/raftstore/store/store.rs 713
+MsgRequestVote 
+/Users/R/tikv/src/raftstore/store/store.rs 715
+MsgRequestVote gc 
+/Users/R/tikv/src/raftstore/store/store.rs 717
+MsgRequestVote 
+/Users/R/tikv/src/raftstore/store/store.rs 977
+gc 
+/Users/R/tikv/src/raftstore/store/store.rs 978
+gc 
+/Users/R/tikv/src/raftstore/store/store.rs 1051
+CompactLog 
+/Users/R/tikv/src/raftstore/store/store.rs 1082
+msg 
+/Users/R/tikv/src/raftstore/store/store.rs 1166
+ReportSplit 
+/Users/R/tikv/src/raftstore/store/store.rs 1287
+verions 
+/Users/R/tikv/src/raftstore/store/store.rs 1296
+TiKV 
+/Users/R/tikv/src/raftstore/store/store.rs 1444
+gc 
+/Users/R/tikv/src/raftstore/store/store.rs 1607
+rocksdb 
+/Users/R/tikv/src/raftstore/store/util.rs 101
+util 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 103
+conf 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 108
+seperate conf 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 221
+ComputeHash cmd 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 243
+ChangePeer 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 289
+ConfChange 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 394
+apprently 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 443
+RaftCmdRequest 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 444
+coprocessor 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 482
+encouter 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 484
+encouter 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 486
+ok 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 878
+Readonly raftstore 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 911
+preseved cfs 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 957
+RocksDB 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1037
+rocksdb 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1189
+threadpool 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1277
+conf 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1278
+conf conf 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1279
+conf 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1375
+ComputeHash 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1468
+conf 
+/Users/R/tikv/src/raftstore/store/worker/apply.rs 1682
+writebatch 
+/Users/R/tikv/src/raftstore/store/worker/compact.rs 115
+sst 
+/Users/R/tikv/src/raftstore/store/worker/compact.rs 124
+sst sst 
+/Users/R/tikv/src/raftstore/store/worker/compact.rs 133
+sst 
+/Users/R/tikv/src/raftstore/store/worker/compact.rs 145
+sst 
+/Users/R/tikv/src/raftstore/store/worker/consistency_check.rs 167
+kvs 
+/Users/R/tikv/src/raftstore/store/worker/pd.rs 234
+splitted 
+/Users/R/tikv/src/raftstore/store/worker/raftlog_gc.rs 68
+gc 
+/Users/R/tikv/src/raftstore/store/worker/raftlog_gc.rs 93
+WAL 
+/Users/R/tikv/src/raftstore/store/worker/split_check.rs 62
+BinaryHeap 
+/Users/R/tikv/src/server/config.rs 163
+txn 
+/Users/R/tikv/src/server/config.rs 170
+txn 
+/Users/R/tikv/src/server/grpc_service.rs 46
+KV 
+/Users/R/tikv/src/server/grpc_service.rs 48
+coprocessor 
+/Users/R/tikv/src/server/grpc_service.rs 642
+PipeBuffer 
+/Users/R/tikv/src/server/node.rs 63
+RaftStore 
+/Users/R/tikv/src/server/raft_client.rs 125
+conns 
+/Users/R/tikv/src/server/resolve.rs 34
+StoreAddrResolver 
+/Users/R/tikv/src/server/resolve.rs 94
+refactor 
+/Users/R/tikv/src/server/server.rs 40
+Grpc 
+/Users/R/tikv/src/server/server.rs 46
+kv 
+/Users/R/tikv/src/server/server.rs 48
+coprocessor 
+/Users/R/tikv/src/server/transport.rs 34
+StoreMsg 
+/Users/R/tikv/src/server/transport.rs 37
+StoreMsg 
+/Users/R/tikv/src/server/transport.rs 40
+RaftMessage 
+/Users/R/tikv/src/server/transport.rs 45
+RaftCmdRequest 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 209
+reqs 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 399
+TODO 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 619
+cmp 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 699
+topn 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 714
+topn 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 774
+topn aggr 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 866
+args 
+/Users/R/tikv/src/server/coprocessor/endpoint.rs 995
+uniq 
+/Users/R/tikv/src/server/coprocessor/executor/limit.rs 78
+init 
+/Users/R/tikv/src/server/coprocessor/executor/limit.rs 86
+init TableScan 
+/Users/R/tikv/src/server/coprocessor/executor/limit.rs 96
+init 
+/Users/R/tikv/src/server/coprocessor/executor/limit.rs 100
+init topn 
+/Users/R/tikv/src/server/coprocessor/executor/scanner.rs 20
+struct 
+/Users/R/tikv/src/server/coprocessor/executor/scanner.rs 222
+prewrite 
+/Users/R/tikv/src/server/coprocessor/executor/scanner.rs 402
+desc 
+/Users/R/tikv/src/server/coprocessor/executor/scanner.rs 407
+asc 
+/Users/R/tikv/src/server/coprocessor/executor/selection.rs 14
+FIXME andelf 
+/Users/R/tikv/src/server/coprocessor/executor/selection.rs 30
+expr 
+/Users/R/tikv/src/util/clocktime.rs 24
+TODO impl macos 
+/Users/R/tikv/src/util/clocktime.rs 61
+clocktime 
+/Users/R/tikv/src/util/buf.rs 25
+buf 
+/Users/R/tikv/src/util/buf.rs 35
+buf 
+/Users/R/tikv/src/util/buf.rs 75
+buf 
+/Users/R/tikv/src/util/buf.rs 87
+buf 
+/Users/R/tikv/src/util/buf.rs 110
+buf 
+/Users/R/tikv/src/util/buf.rs 112
+buf 
+/Users/R/tikv/src/util/buf.rs 123
+buf 
+/Users/R/tikv/src/util/buf.rs 129
+buf 
+/Users/R/tikv/src/util/buf.rs 130
+rrr rrrll 
+/Users/R/tikv/src/util/buf.rs 136
+lll rr lll rr 
+/Users/R/tikv/src/util/buf.rs 149
+buf 
+/Users/R/tikv/src/util/buf.rs 169
+rr rr 
+/Users/R/tikv/src/util/buf.rs 185
+rrrrr rrrr 
+/Users/R/tikv/src/util/buf.rs 190
+rr rr 
+/Users/R/tikv/src/util/buf.rs 204
+buf 
+/Users/R/tikv/src/server/coprocessor/executor/topn.rs 279
+init 
+/Users/R/tikv/src/server/coprocessor/executor/topn.rs 287
+init TableScan 
+/Users/R/tikv/src/server/coprocessor/executor/topn.rs 297
+init TopN 
+/Users/R/tikv/src/server/coprocessor/executor/topn.rs 305
+init topn 
+/Users/R/tikv/src/util/logger.rs 52
+TODO 
+/Users/R/tikv/src/util/config.rs 241
+equak 
+/Users/R/tikv/src/util/config.rs 243
+shoud 
+/Users/R/tikv/src/util/config.rs 248
+somaxconn 
+/Users/R/tikv/src/util/config.rs 252
+vm swappiness 
+/Users/R/tikv/src/util/config.rs 276
+WHATWG 
+/Users/R/tikv/src/util/config.rs 392
+vm swappiness 
+/Users/R/tikv/src/util/config.rs 421
+google 
+/Users/R/tikv/src/util/config.rs 423
+google 
+/Users/R/tikv/src/util/config.rs 424
+google 
+/Users/R/tikv/src/util/config.rs 425
+google 
+/Users/R/tikv/src/util/config.rs 427
+ftp 
+/Users/R/tikv/src/util/config.rs 428
+www ietf 
+/Users/R/tikv/src/util/file_log.rs 111
+implemetation 
+/Users/R/tikv/src/util/file_log.rs 171
+mtime 
+/Users/R/tikv/src/util/panic_hook.rs 24
+skiping stacktrace conditionaly 
+/Users/R/tikv/src/util/panic_hook.rs 42
+stacktrace 
+/Users/R/tikv/src/util/panic_hook.rs 48
+stacktrace 
+/Users/R/tikv/src/util/panic_hook.rs 53
+stacktrace 
+/Users/R/tikv/src/util/macros.rs 22
+fn 
+/Users/R/tikv/src/util/macros.rs 31
+args 
+/Users/R/tikv/src/util/macros.rs 44
+fn 
+/Users/R/tikv/src/util/macros.rs 49
+kv 
+/Users/R/tikv/src/util/macros.rs 51
+len 
+/Users/R/tikv/src/util/macros.rs 54
+kv 
+/Users/R/tikv/src/util/macros.rs 56
+len 
+/Users/R/tikv/src/util/macros.rs 108
+panicable 
+/Users/R/tikv/src/util/macros.rs 111
+lang AssertUnwindSafe html 
+/Users/R/tikv/src/util/macros.rs 178
+async 
+/Users/R/tikv/src/util/mod.rs 115
+wl rl 
+/Users/R/tikv/src/util/mod.rs 138
+SocketAddr mio 
+/Users/R/tikv/src/util/mod.rs 139
+mio SocketAddr 
+/Users/R/tikv/src/util/mod.rs 140
+ok 
+/Users/R/tikv/src/util/mod.rs 146
+ascii 
+/Users/R/tikv/src/util/mod.rs 187
+unescape 
+/Users/R/tikv/src/util/mod.rs 198
+unescape 
+/Users/R/tikv/src/util/mod.rs 199
+unescape 
+/Users/R/tikv/src/util/mod.rs 200
+unescape 
+/Users/R/tikv/src/util/mod.rs 201
+unescape 
+/Users/R/tikv/src/util/mod.rs 202
+unescape 
+/Users/R/tikv/src/util/mod.rs 286
+failable 
+/Users/R/tikv/src/util/mod.rs 381
+utc 
+/Users/R/tikv/src/util/mod.rs 391
+tikv 
+/Users/R/tikv/src/util/mod.rs 401
+prometheus 
+/Users/R/tikv/src/util/mod.rs 483
+Vec 
+/Users/R/tikv/src/util/rocksdb.rs 131
+iter iter 
+/Users/R/tikv/src/util/sockopt.rs 66
+linux getsockopt setsockopt 
+/Users/R/tikv/src/util/sockopt.rs 67
+getsockopt 
+/Users/R/tikv/src/util/thread_metrics.rs 126
+zA 
+/Users/R/tikv/src/util/thread_metrics.rs 155
+proc 
+/Users/R/tikv/src/util/thread_metrics.rs 156
+utime stime 
+/Users/R/tikv/src/util/thread_metrics.rs 170
+pid 
+/Users/R/tikv/src/util/thread_metrics.rs 176
+getconf 
+/Users/R/tikv/src/util/threadpool.rs 218
+gid gid 
+/Users/R/tikv/src/util/threadpool.rs 221
+gid 
+/Users/R/tikv/src/util/threadpool.rs 224
+gid 
+/Users/R/tikv/src/util/threadpool.rs 242
+PushError 
+/Users/R/tikv/src/util/threadpool.rs 338
+gid 
+/Users/R/tikv/src/util/threadpool.rs 339
+gid 
+/Users/R/tikv/src/util/threadpool.rs 424
+Threadpool 
+/Users/R/tikv/src/util/threadpool.rs 529
+tikv 
+/Users/R/tikv/src/util/worker/future.rs 209
+StepRunner 
+/Users/R/tikv/src/util/xeval/evaluator.rs 37
+sql 
+/Users/R/tikv/src/util/xeval/evaluator.rs 38
+sql 
+/Users/R/tikv/src/util/xeval/evaluator.rs 90
+expr 
+/Users/R/tikv/src/util/xeval/evaluator.rs 104
+Eval expr 
+/Users/R/tikv/src/util/xeval/evaluator.rs 259
+tidb 
+/Users/R/tikv/src/util/xeval/evaluator.rs 412
+lhs rhs 
+/Users/R/tikv/src/util/xeval/evaluator.rs 421
+lhs rhs 
+/Users/R/tikv/src/util/codec/bytes.rs 55
+memcomparable 
+/Users/R/tikv/src/util/worker/mod.rs 303
+StepRunner 
+/Users/R/tikv/src/util/codec/convert.rs 182
+refactor 
+/Users/R/tikv/src/util/codec/convert.rs 197
+refactor 
+/Users/R/tikv/src/util/codec/datum.rs 102
+json 
+/Users/R/tikv/src/util/codec/datum.rs 283
+bool 
+/Users/R/tikv/src/util/codec/datum.rs 364
+fucntion 
+/Users/R/tikv/src/util/codec/datum.rs 367
+MySQL 
+/Users/R/tikv/src/util/codec/datum.rs 701
+tidb 
+/Users/R/tikv/src/util/codec/datum.rs 724
+tidb 
+/Users/R/tikv/src/util/codec/datum.rs 740
+buf 
+/Users/R/tikv/src/util/codec/datum.rs 1180
+uint 
+/Users/R/tikv/src/util/codec/number.rs 54
+buf 
+/Users/R/tikv/src/util/codec/number.rs 61
+buf 
+/Users/R/tikv/src/util/codec/number.rs 68
+buf 
+/Users/R/tikv/src/util/codec/number.rs 74
+buf 
+/Users/R/tikv/src/util/codec/number.rs 80
+buf 
+/Users/R/tikv/src/util/codec/number.rs 81
+memcomparable 
+/Users/R/tikv/src/util/codec/number.rs 90
+buf 
+/Users/R/tikv/src/util/codec/number.rs 91
+memcomparable 
+/Users/R/tikv/src/util/codec/number.rs 100
+buf 
+/Users/R/tikv/src/util/codec/number.rs 107
+buf 
+/Users/R/tikv/src/util/codec/number.rs 313
+codecs 
+/Users/R/tikv/src/util/codec/number.rs 327
+codecs 
+/Users/R/tikv/src/util/codec/number.rs 342
+codecs 
+/Users/R/tikv/src/util/codec/number.rs 415
+io 
+/Users/R/tikv/src/util/codec/number.rs 425
+codecs 
+/Users/R/tikv/src/util/codec/table.rs 119
+tidb 
+/Users/R/tikv/src/util/codec/table.rs 289
+RowColsDict 
+/Users/R/tikv/src/util/codec/table.rs 313
+RowColsDict 
+/Users/R/tikv/src/util/codec/mysql/mod.rs 24
+Fsp 
+/Users/R/tikv/src/util/codec/mysql/duration.rs 29
+mysql 
+/Users/R/tikv/src/util/codec/mysql/duration.rs 49
+Fsp 
+/Users/R/tikv/src/util/codec/mysql/duration.rs 50
+mysql html 
+/Users/R/tikv/src/util/codec/mysql/duration.rs 117
+mysql html 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 143
+zeroes 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 153
+zeroes 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 186
+substracts rhs lhs diff 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 198
+substracts rhs lhs diff 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 216
+lhs rhs 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 217
+begining 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 219
+lhs rhs 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 277
+rhs lhs 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 394
+lhs rhs 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 778
+wordBase 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 821
+buf 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 942
+garanted 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 963
+garanted 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 987
+XXX 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 1044
+haftup 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 1057
+TODO 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 1348
+convertion 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 1517
+ascii 
+/Users/R/tikv/src/util/codec/mysql/decimal.rs 1604
+compareable 
+/Users/R/tikv/src/util/codec/mysql/time.rs 28
+UTC 
+/Users/R/tikv/src/util/codec/mysql/time.rs 29
+timestamp 
+/Users/R/tikv/src/util/codec/mysql/time.rs 103
+struct datetime timestamp 
+/Users/R/tikv/src/util/codec/mysql/time.rs 255
+UTC 
+/Users/R/tikv/src/util/codec/mysql/time.rs 284
+TIMESTAMP UTC 
+/Users/R/tikv/src/util/codec/mysql/json/binary.rs 45
+Json 
+/Users/R/tikv/src/util/codec/mysql/json/binary.rs 120
+inlined 
+/Users/R/tikv/src/util/codec/mysql/json/binary.rs 197
+inline 
+/Users/R/tikv/src/util/codec/mysql/json/binary.rs 253
+inlined 
+/Users/R/tikv/src/util/codec/mysql/json/comparison.rs 14
+FIXME shirly 
+/Users/R/tikv/src/util/codec/mysql/json/comparison.rs 110
+tidb JSON 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 33
+JSON autowrapped 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 44
+len 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 45
+len 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 60
+mysql 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 61
+json 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 291
+json 
+/Users/R/tikv/src/util/codec/mysql/json/functions.rs 323
+json 
+/Users/R/tikv/src/util/codec/mysql/json/json_merge.rs 17
+mysql 
+/Users/R/tikv/src/util/codec/mysql/json/json_merge.rs 18
+mysql 
+/Users/R/tikv/src/util/codec/mysql/json/json_merge.rs 22
+autowrapped 
+/Users/R/tikv/src/util/codec/mysql/json/json_merge.rs 23
+autowrapping 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 19
+JSON 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 22
+JSON 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 24
+JSON 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 31
+Json 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 32
+wildcard 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 70
+autowrap 
+/Users/R/tikv/src/util/codec/mysql/json/json_modify.rs 71
+unwraped 
+/Users/R/tikv/src/util/codec/mysql/json/json_type.rs 26
+mysql 
+/Users/R/tikv/src/util/codec/mysql/json/mod.rs 13
+FIXME shirly 
+/Users/R/tikv/src/util/codec/mysql/json/mod.rs 30
+Json json tikv 
+/Users/R/tikv/src/util/codec/mysql/json/mod.rs 36
+sql 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 14
+mysql html 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 15
+MySQL JSON 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 16
+pathExpression pathLeg 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 17
+columnReference 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 18
+columnReference 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 19
+pathLeg arrayLocation 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 20
+keyName 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 21
+arrayLocation 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 22
+keyName ECMAScript ECMAScript 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 24
+MySQL 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 25
+columnReference 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 48
+zA zA 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 63
+ArrayIndexAsterisk 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 87
+JSON 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 91
+dollarIndex 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 117
+JSON 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 128
+JSON 
+/Users/R/tikv/src/util/codec/mysql/json/path_expr.rs 143
+JSON 
+/Users/R/tikv/src/raftstore/store/snap.rs 1691
+thte ok 
+/Users/R/tikv/src/raftstore/store/snap.rs 1694
+dest 
+/Users/R/tikv/src/raftstore/store/snap.rs 1756
+dir 
+/Users/R/tikv/src/raftstore/store/snap.rs 1771
+dir 
+/Users/R/tikv/src/raftstore/store/snap.rs 2064
+snapfile 
+/Users/R/tikv/src/raftstore/store/snap.rs 2491
+impl impl 
+/Users/R/tikv/src/raftstore/store/snap.rs 2575
+GC 
+/Users/R/tikv/src/raftstore/store/snap.rs 2592
+GC 
+/Users/R/tikv/src/raftstore/store/snap.rs 2602
+GC 
+/Users/R/tikv/src/raftstore/store/snap.rs 2612
+GC 
+/Users/R/tikv/src/raftstore/store/store.rs 1971
+mio TimerError 
+/Users/R/tikv/src/raftstore/store/store.rs 2084
+admin 

@@ -2,7 +2,6 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 const Typo = require('typo-js');
-const sleep = require('sleep');
 const recursive = require('recursive-readdir');
 const each = require('async-each');
 
@@ -17,7 +16,7 @@ const langOptions = {
                  'go': '//'
                };
 const ws = fs.createWriteStream('./report.txt');
-const ignoreSet = new Set(['js', 'JavaScript', 'JS']);
+const ignoreSet = new Set(['js', 'JavaScript', 'JS', 'MVCC', 'PingCAP', 'memtable', 'config' ]);
 
 function containComment(str, langType) {
     const commentSymbol = langOptions[langType];
@@ -126,7 +125,6 @@ function testPrinting(pathToFile) {
     });
 }
 
-//testPrinting('./examples/test.go');
 function testDir(pathToDir) {
     recursive(pathToDir, function(err, filenames) {
         if (err) {
@@ -146,4 +144,4 @@ function testDir(pathToDir) {
     });
 }
 
-testDir('examples/');
+testDir(process.argv[2]);
